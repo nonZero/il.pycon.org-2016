@@ -86,3 +86,13 @@ $divider-inverted: #527bac;
     font-weight: bold;
   }
 }
+
+.website-license {
+  @media (min-width: $screen-sm) {
+    text-align: center;
+  }
+
+  a {
+    font-weight: bold;
+  }
+}
