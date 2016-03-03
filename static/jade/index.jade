@@ -25,31 +25,33 @@ block viewport
         The very first #[strong PyCon] in #[strong Israel]. Join us
         for a 2-day event with talks, sprints and workshops about Python.
           
-  //-
-    .container
-      .program
-        .program-item
-          h2 Talks
-          .date Saturday 14th
-          .venue
-            i.fa.fa-map-marker
-            span.
-              #[a(href=pageUrl("talks/#directions")) Faculty of Information Technology,#[br] Božetěchova 1/2]
-          p.
-            #[strong One] day, #[strong two] parallel tracks, #[strong two] keynotes
-            and #[strong ten] awesome talks. Community, web, hardware, science, devops and more.
-      
+  .container
+    .program
       .program-item
-        h2 Sprints &amp; workshops
-        .date Sunday 15th
+        h2 Location
+        //- .date Saturday 14th
+        p.
+          The conference will take place in the Ayalon Mall, at the Yes Planet 
+          cinema complex.
         .venue
           i.fa.fa-map-marker
           span.
-            #[a(href=pageUrl("workshops/#directions")) Impact Hub Brno,#[br] Cyrilská 7]
+            #[a(href="https://goo.gl/maps/qvZwf6Ju3Wq") Yes Planet, Ayalon Mall, Ramat Gan]
+
+        //- img(src=pageUrl("/static/images/venue/ayalon_mall.jpg") height=200)
+        //- img(src=pageUrl("/static/images/venue/yes_logo.png") height=200)
+        //- p.
+          //- #[strong One] day, #[strong two] parallel tracks, #[strong two] keynotes
+          //- and #[strong ten] awesome talks. Community, web, hardware, science, devops and more.
+
+      .program-item
+        h2 Become a Speaker
         p.
-          #[strong Six] workshops in #[strong two] blocks and sprinting all day long. Hack on
-          open-source projects together with other Python community members.
-    
+          Interested in giving a talk at the first Israeli PyCon?
+          #[a(href="http://goo.gl/forms/sLLFy0Zzsc") Submit a talk proposal]!
+        p. 
+          The deadline for submitting a proposal is March 30th.
+
   .registration
     h2 Registration
     p.lead.
@@ -100,3 +102,4 @@ block viewport
         .sponsor
           a.sponsor-redhat(href="http://www.redhat.com/en/global/czech-republic")
             img(src=pageUrl("/static/images/sponsors/redhat.png"))
+      //- Become our partner!
