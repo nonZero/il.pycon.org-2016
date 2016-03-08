@@ -29,7 +29,8 @@
 .djangogirls,
 .diamond,
 .gold,
-.silver {
+.silver,
+.bronze {
   @include make-row();
 }
 
@@ -49,6 +50,9 @@
 
   .silver & {
     @include make-sm-column(4);
+  }
+  .bronze & {
+    @include make-sm-column(2);
   }
 
   img {
