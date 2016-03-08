@@ -29,10 +29,20 @@ block vars
 block viewport
   .container
     h1 Our speakers
-    
+
     //-  Iterate over workshops object (loaded in gulpfile from data/workshops.json)
     //-  and render mixin talk() (see above)
-    each speaker, index in speakers
+    //-each speaker, index in speakers
       +talk(speaker[0])
       +talk(speaker[1])
-  
+
+    h2 Keynotes
+    
+    h3 Growing Community That Makes a Difference
+    .container
+      h4 Ola Sitartska and Ola Sendecka
+      .container
+         img(src=pageUrl("static/images/speakers/ola_sitarska.jpg"))
+         img(src=pageUrl("static/images/speakers/ola_sendecka.jpg"))
+
+      
