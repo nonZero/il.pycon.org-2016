@@ -344,3 +344,19 @@ small.workshop-time {
     margin-left: 0.5em;
   }
 }
+
+.rounded {
+  border-radius: 50%;
+}
+
+.halfspeaker {
+ display: inline-block;
+ width: 30%;
+
+ h3 {
+   text-align: center;
+ }
+ img {
+   width: 100%;
+ }
+}
