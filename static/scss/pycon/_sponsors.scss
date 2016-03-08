@@ -19,7 +19,7 @@
     color: $brand-primary;
   }
 
-  .platinum {
+  .diamond {
     h3 {
       margin-bottom: -20px;
     }
@@ -27,7 +27,7 @@
 }
 
 .djangogirls,
-.platinum,
+.diamond,
 .gold,
 .silver {
   @include make-row();
@@ -39,7 +39,7 @@
 
 .sponsor {
   .djangogirls &,
-  .platinum & {
+  .diamond & {
     @include make-sm-column(12);
   }
 
